@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Maintenance_Part</fullName>
+    <fields>Name</fields>
+    <fields>Maintenance_Request__c</fields>
+    <fields>Part_Inventory__c</fields>
+    <fields>Qty_Utilized__c</fields>
+    <label>Maintenance Part</label>
+</CompactLayout>
