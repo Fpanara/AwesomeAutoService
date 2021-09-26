@@ -1,5 +1,5 @@
 /**
- * @description       : 
+ * @description       : Helper test class
  * @author            : fpanara
  * @group             : 
  * @last modified on  : 09-26-2021
