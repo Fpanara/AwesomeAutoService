@@ -115,7 +115,7 @@ public class MaintenancePartTriggerHelper {
                 if(oldMaintenancePartsMap != null){
                     Maintenance_Part__c oldMaintenancePart = oldMaintenancePartsMap.get(objMaintenancePart.Id);
                     
-                    if(objMaintenancePart.Qty_Utilized__c > oldMaintenancePart.Qty_Utilized__c) 
+                    if(objMaintenancePart.Qty_Utilized__c > oldMaintenancePart.Qty_Utilized__c) //Validating the stock if there's an addition in utilized qty
                         for(Id objId: partInventoryIdList){
                             if(objMaintenancePart.Part_Inventory__c == objId){
                                 for (Part_Inventory__c objChildPartInventory : childPartInventoryList) {
